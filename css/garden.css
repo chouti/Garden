@@ -1,0 +1,39 @@
+body{
+	background:url(/img/paper.jpg);
+}
+
+.hero-unit{
+	background-color: #fff;
+	border-bottom: 3px solid #000;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	box-shadow:0 1px #FFFFFF inset, 0 1px 2px rgba(34, 25, 25, 0.4);
+}
+
+.pjname{
+	font-family:Pacifico;
+	color:#C90000;
+	text-shadow: 0 -1px rgba(0,0,0,0.5);
+	-webkit-text-shadow: 0 -1px rgba(0,0,0,0.5);
+}
+
+.welcome{
+	font-family: Kreon-Bold;
+	color:#000;
+}
+
+.options{
+	padding: 10px;
+	background-color: #fff;
+	box-shadow:0 1px #FFFFFF inset, 0 1px 2px rgba(34, 25, 25, 0.4);
+	border-bottom: 3px solid #000;
+}
+
+.options .btn {
+	float: right;
+}
+
+@font-face { font-family: Pacifico; src: url('/img/fonts/Pacifico.ttf');}
+@font-face { font-family: Kreon-Bold; src: url('/img/fonts/Kreon-Bold.ttf');}
+@font-face { font-family: Kreon-Light; src: url('/img/fonts/Kreon-Light.ttf');}
+@font-face { font-family: Kreon; src: url('/img/fonts/Kreon-Regular.ttf');}
